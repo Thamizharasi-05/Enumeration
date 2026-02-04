@@ -59,10 +59,10 @@ cache: This operator allows you to view the cached version of a page. For exampl
 
 <img width="1917" height="1086" alt="Screenshot 2026-02-04 090330" src="https://github.com/user-attachments/assets/6fef94d5-33ff-4f55-8faf-b76ab496f102" />
 
-#DNS Enumeration
+# DNS Enumeration
 
 
-##DNS Recon
+# DNS Recon
 provides the ability to perform:
 Check all NS records for zone transfers
 Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT)
@@ -72,7 +72,7 @@ Top level domain expansion
 
 <img width="678" height="577" alt="Screenshot 2026-02-04 082709" src="https://github.com/user-attachments/assets/469922b8-1d68-4105-ae4b-20d4969f9853" />
 
-##dnsenum
+# dnsenum
 Dnsenum is a multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks. The main purpose of Dnsenum is to gather as much information as possible about a domain. The program currently performs the following operations:
 
 Get the host’s addresses (A record).
@@ -90,7 +90,7 @@ This program is useful for pentesters, ethical hackers and forensics experts. It
 
 <img width="630" height="753" alt="Screenshot 2026-02-04 082920" src="https://github.com/user-attachments/assets/ed61c0c7-9d09-4923-81e6-aa2c92a2de16" />
 
-##smtp-user-enum
+# smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
 
 
@@ -102,16 +102,16 @@ select any username in the first column of the above file and check the same
 
 <img width="634" height="389" alt="Screenshot 2026-02-04 083753" src="https://github.com/user-attachments/assets/835eddcb-a309-470d-a305-37b7fbb0352a" />
 
-#Telnet for smtp enumeration
+# Telnet for smtp enumeration
 Telnet allows to connect to remote host based on the port no. For smtp port no is 25
 telnet <host address> 25 to connect
 and issue appropriate commands
   
 ## Output:
   
-  
+<img width="545" height="537" alt="image" src="https://github.com/user-attachments/assets/dd1d3cf6-9548-4f65-bc7d-a5612d4b075d" />
 
-## nmap –script smtp-enum-users.nse <hostname>
+# nmap –script smtp-enum-users.nse <hostname>
 
 The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server by issuing the VRFY, EXPN or RCPT TO commands. The goal of this script is to discover all the user accounts in the remote system.
 
