@@ -1,5 +1,4 @@
-# Enumeration
-Enumeration Techniques
+# Enumeration Techniques
 
 # Explore Google hacking and enumeration 
 
